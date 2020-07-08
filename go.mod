@@ -5,7 +5,6 @@ go 1.13
 require (
 	clevergo.tech/auth v0.1.0
 	clevergo.tech/authmiddleware v0.1.0
-	clevergo.tech/authmidware v0.2.0
 	clevergo.tech/clevergo v0.4.0
 	clevergo.tech/form v0.1.0
 	clevergo.tech/jetpackr v0.1.0
