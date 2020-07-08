@@ -6,10 +6,6 @@ Auth0 Integration Samples for Go Web Applications.
 
 The first thing you need to do is create an [Auth0](http://www.auth0.com/) application, and then modify the relevant configuration.
 
-```shell
-$ cp .env.example .env
-```
-
 | Env | Description | Default Value |
 |---|---|---|
 | `APP_MODE` | prod or dev | `prod` |
@@ -21,10 +17,14 @@ $ cp .env.example .env
 
 > Don't forget to modify the corresponding callback URL for Auth0 application.
 
+Checkout [.env.example](.env.example) for details.
+
 ## Usage
 
 ```shell
-$ go run main.go serve
+$ go install github.com/razonyang/go-auth0-web-app
+$ touch .env
+$ go-auth0-web-app serve
 ```
 
 ## Structure
