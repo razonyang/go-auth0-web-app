@@ -1,0 +1,42 @@
+{{ block sidebar() }}
+
+<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+    <div class="sidebar-sticky">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="/dashboard">
+            <i class="fas fa-tachometer-alt"></i>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-newspaper"></i>
+            Posts
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-chart-line"></i>
+            Charts
+          </a>
+        </li>
+        <li class="nav-item">
+          <hr class="dropdown-divider">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-user-alt"></i>
+            Users
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-sliders-h"></i>
+            Settings
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+{{ end }}
