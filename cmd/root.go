@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"github.com/razonyang/go-auth0-web-app/internal/core"
+	"pkg.razonyang.com/go-auth0-web-app/internal/core"
 	"github.com/urfave/cli/v2"
 )
 

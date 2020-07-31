@@ -22,7 +22,7 @@ Checkout [.env.example](.env.example) for details.
 ## Usage
 
 ```shell
-$ go get -u github.com/razonyang/go-auth0-web-app
+$ go get -u pkg.razonyang.com/go-auth0-web-app
 $ touch .env
 $ go-auth0-web-app serve
 ```

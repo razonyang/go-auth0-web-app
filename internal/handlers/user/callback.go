@@ -8,7 +8,7 @@ import (
 
 	"clevergo.tech/clevergo"
 	"github.com/coreos/go-oidc"
-	"github.com/razonyang/go-auth0-web-app/internal/core"
+	"pkg.razonyang.com/go-auth0-web-app/internal/core"
 )
 
 func (h *Handler) callback(c *clevergo.Context) error {

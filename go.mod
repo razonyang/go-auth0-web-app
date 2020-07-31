@@ -1,4 +1,4 @@
-module github.com/razonyang/go-auth0-web-app
+module pkg.razonyang.com/go-auth0-web-app
 
 go 1.13
 
