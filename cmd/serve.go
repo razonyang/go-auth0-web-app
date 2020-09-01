@@ -30,7 +30,6 @@ var serveCmd = &cli.Command{
 	Name:  "serve",
 	Usage: "start a HTTP server",
 	Action: func(c *cli.Context) error {
-		clevergo.SetLogger(provideLogger())
 		app := clevergo.New()
 		app.Decoder = form.New()
 		sessionManager := provideSessionManager()
