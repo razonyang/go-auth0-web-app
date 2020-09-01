@@ -20,7 +20,7 @@ var (
 			&cli.StringFlag{
 				Name:        "config",
 				Aliases:     []string{"c"},
-				Value:       "configs/dev",
+				Value:       "configs/config",
 				Destination: &cfg,
 			},
 		},
